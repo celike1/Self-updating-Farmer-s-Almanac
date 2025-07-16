@@ -1,0 +1,28 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Self-updating Farmer's Almanac</title>
+</head>
+<body>
+    <div style="text-align:center; font-family:monospace; font-size: 40px; margin: 40px">
+        Welcome to Self-updating Farmer's Almanac!
+    </div>
+
+    <div>
+        <center>
+        <img src="{{ url_for('static', filename='website_pic.jpg') }}" alt="plants"  />
+        </center>
+    </div>
+
+    <div>
+        <center>
+            <form action="/for_farmers" style="display: inline-block">
+                <button type="submit" style="background-color: #F0542D; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-family: monospace; font-size: 23px; margin: 40px 4px; cursor: pointer; border: none; border-radius: 8px;">For farmers</button>
+            </form>
+            <form action="/for_planters" style="display: inline-block">
+                <button type="submit" style="background-color: #F0542D; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-family: monospace; font-size: 23px; margin: 40px 4px; cursor: pointer; border: none; border-radius: 8px;">For planters</button>
+            </form>
+        </center>
+    </div>
+</html>
