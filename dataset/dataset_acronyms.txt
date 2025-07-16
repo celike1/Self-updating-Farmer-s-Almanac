@@ -1,0 +1,25 @@
+GSL - Growth Season Length (days per year)
+Number of days between the first occurrence after 1st January (1st July in southern hemisphere) of at least 6 consecutive days with TG > 5°C and the first occurrence after 1st July (1st January in southern hemisphere) of at least 6 consecutive days with TG < 5°C, where TG is the daily mean temperature. This indicator provides an indication whether or not a crop, or a combination of crops, can be sown and subsequently reach maturity within a certain time frame.
+
+CWD - Consecutive Wet Days (by season)
+Longest period of consecutive days when RR > 1mm, where RR is the daily precipitation sum. This indicator provides information on drought, oxygen stress and crop growth (i.e. less radiation interception during rainy days).
+
+WW - Warm and Wet Days (by season)
+Number of days per 10 days when TG > TG75th and RR > RR75th; where TG is the daily mean temperature, TG75th is the calendar day 75th percentile, RR is the daily precipitation sum and RR75th is the 75th percentile of precipitation on wet days. To calculate TG75th and RR75 for each day, a 5-day window centered on each equivalent day in the 1981-2010 period is used to improve the statistical robustness from which the 75th percentile of the data is selected (e.g. for all the 3rd of July days between 1981-2010, the 1st, 2nd, 3rd, 4th, 5th July are selected in the 5-day window). This indicator provides an indication of occurrence of various pests and the crop development, especially leaf formation.
+
+CDD - Consecutive Dry Days (by season)
+Longest period of consecutive days when RR < 1mm, where RR is the daily precipitation sum. This indicator is used for drought monitoring.
+
+CSDI - Cold Spell Duration Index (by season)
+Number of days per season with at least 6 consecutive days when TN < TN10th, where TN is the daily minimum temperature and TN10th is the calendar day 10th percentile. To calculate TN10th for each day, a 5-day window centered on each equivalent day in the 1981-2010 period is used to improve the statistical robustness from which the 10th percentile of the data is selected (e.g. for all 3rd of July days between 1981-2010, the 1st, 2nd, 3rd, 4th, 5th July are selected in the 5-day window). This indicator provides information on reduced blossom formation or reduced growth.
+
+WSDI - Warm Spell Duration Index (by season)
+Number of days per season with at least 6 consecutive days when TX > TX90th, where TX is the daily maximum temperature and TX90th is the calendar day 90th percentile. To calculate TX90th for each day, a 5-day window centered on each equivalent day in the 1981-2010 period is used to improve the statistical robustness from which the 90th percentile of the data is selected (e.g. for all the 3rd of July days between 1981-2010, the 1st, 2nd, 3rd, 4th, 5th July are selected in the 5-day window). This indicator provides an indication of the occurrence of heat stress.
+
+CFD - Consecutive Frost Days (by season)
+Longest period of consecutive days when TN < 0°C, where TN is the daily minimum temperature. This indicator is used as a general frost damage indicator.
+
+CSU - Consecutive Summer Days (by season)
+Longest period of consecutive days when TX > 25°C, where TX is the daily maximum temperature. This indicator provides information on drought stress or on optimal growth for C4 crops (crops that use the C4 carbon fixation pathway, e.g. maize).
+
+
